@@ -10,7 +10,7 @@ pipeline {
         saveJSONParameterToFile: false, 
         type: 'PT_SINGLE_SELECT', 
         //groovyScript: 'return(["alice","bob"])',
-        groovyScriptFile: 'https://raw.githubusercontent.com/nicolashavet/jenkinsTest/master/parameters.groovy',
+        groovyScriptFile: 'C:\\jenkinsConfiguration\\parameters.groovy',
         visibleItemCount: 10)
     }
 
